@@ -1,7 +1,7 @@
 {
   "name": "env-parser",
   "version": "1.0.0",
-  "description": "A simple env file parser that supports multiple datatypes",
+  "description": "⚙️ A simple parser to parse files with key=value format",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
