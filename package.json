@@ -1,0 +1,19 @@
+{
+  "name": "env-parser",
+  "version": "1.0.0",
+  "description": "A simple env file parser that supports multiple datatypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFarish/env-parser.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xFarish/env-parser/issues"
+  },
+  "homepage": "https://github.com/xFarish/env-parser#readme"
+}
