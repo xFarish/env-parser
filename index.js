@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const parser = (file = '.env', debug = false) => {
+const parser = (obj, file = '.env', debug = false) => {
     const kv = [];
 
     const contents = fs.readFileSync(file, 'utf8').trim();
@@ -38,7 +38,7 @@ const parser = (file = '.env', debug = false) => {
     }
 
     for (const [key, value] of kv) {
-        process.env[key] = value;
+        obj[key] = value;
     }
 }
 

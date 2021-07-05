@@ -1,13 +1,17 @@
 const parser = require('./index');
 
+
+const env = {}
 parser(
+    env,
     './test.env',
     true
 );
 
-console.log(process.env.TEST1);
-console.log(process.env.TEST2);
-console.log(process.env.TEST3);
-console.log(process.env.TEST4);
-console.log(process.env.TEST5);
-console.log(process.env.TEST6);
+console.log(env);
+console.log(env.TEST1);
+console.log(env.TEST2);
+console.log(env.TEST3);
+console.log(env.TEST4);
+console.log(env.TEST5);
+console.log(env.TEST6);
